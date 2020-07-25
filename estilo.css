@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#conteudo {
+    display: table;
+    background-color:#56c02b;
+    width: 650px;
+    padding: 0px 299px;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#tituloTopo {
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    
+}
+#textoTopo {
+    color:white;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+#caixaTopo {
+    display: table-cell;
+    float: left;
+    width: 500px;
+    justify-content: center;
+}
+#imagemTopo {
+    display: table-cell;
+    float: right;
+    margin-top: 70px;
+}
+#iconeFloresta {
+    width: 100px;
+}
+.explicacao{
+    display: table;
+    padding: 50px 100px;
+    justify-content: center;
+    
+}
+.explicacaoTexto{
+    display: table-cell;
+    float: left;
+    width: 550px;
+    text-align: justify;
+}
+.explicacaoImagem{
+    display: table-cell;
+    float: left;
+    margin-left: 40px;
+    margin-top: 54px;
+    border: 4px;
+    border-style: solid;
+    border-color: #337319
+}
+#imagemMulher{
+    width: 450px;
+}
