@@ -286,12 +286,6 @@ address{
     .borda{
         filter: brightness(100%);
     }
-    .borda:hover{
-        filter: brightness(100%);
-    }
-    .borda:not(:hover){
-        filter: brightness(100%);
-    }
     .imgajuda{
         height: auto;
     }
