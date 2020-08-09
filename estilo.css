@@ -1,0 +1,305 @@
+html, body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #59ba47;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0px 3px 4px black;
+}
+#logo{
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    margin-left: 5%;
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0;
+}
+ul{
+    font-size: 18px;
+    font-weight: bolder;
+}
+li{
+    float: left;
+    padding: 0 0 4 0;
+    margin: 20 20 0 10;
+}
+li:hover{
+    border-bottom: 2px solid white;
+}
+.amenu{
+    text-decoration: none;
+    color: white;
+}
+#imagemFundo{
+    background-image: url("img/fundo\ 4.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    box-sizing: border-box;
+}
+#titulo {
+    padding-top: 14%;
+    padding-bottom: 10px;
+    margin: 0px;
+    font-size: 75px;
+    text-shadow: -5px 5px 3px black;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+#subtitulo{
+    font-size: 35px;
+    text-shadow: -3px 3px 2px black;
+    margin: 0 30%;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border-top: 3px solid white;
+}
+#acao{
+    color: white;
+    font-size: 22px;
+    text-decoration: initial;
+    text-shadow: -2px 2px 1px black;
+    border: 2px solid;
+    border-radius: 12px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+#acao:hover{
+    background-color: black;
+    font-size: 24px;
+    transition: 500ms;
+}
+#acao:not(:hover){
+    background-color: transparent;
+    transition: 1000ms;
+}
+section{
+    padding: 4% 2%;
+    float: left;
+    width:96%;
+}
+h3{
+    text-transform: initial;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    text-shadow: -1px 1px  #418A34;
+    margin: 30px;
+}
+#video{
+    padding-top: 12%;
+}
+.iconeimg{
+    height: 60px;
+}
+.icone{
+    padding: 15px;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.icone:hover{
+    background-color: #59ba47;
+    transition: 1000ms;
+}
+.icone:not(:hover){
+    background-color: transparent;
+    transition: 1000ms;
+}
+.destaque {
+    background-color: #e1ffdf;
+}
+
+.coluna{
+    float: right;
+    padding: 0 5%;
+    position: relative;
+}
+.dois{
+    width: 39%;
+}
+.tres{
+    width: 31.33%;
+    padding: 0 1%;
+}
+.quatro{
+    width: 15%;
+}
+
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+}
+
+.borda{
+    border: solid 1px #59ba47;
+    height: 50%;
+    color: white;
+    text-shadow: black -1px 1px;
+    justify-content: center;
+    filter: brightness(80%);
+}
+.borda:hover{
+    filter: brightness(100%);
+    transition: 1000ms;
+}
+.borda:not(:hover){
+    filter: brightness(80%);
+    transition: 1000ms;
+}
+.biomatit{
+    padding-top: 10%;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-size: 30px;
+}
+.biomap{
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 20px;
+    padding-top: 0px;
+    margin-top: 0;
+}
+.linkbioma{
+    text-decoration: initial;
+    color: white;
+    padding: 7px;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin-bottom: 50px;
+}
+.linkbioma:hover{
+    background-color: black;
+    transition: 1000ms;
+}
+.linkbioma:not(:hover){
+    background-color: transparent;
+    transition: 1000ms;
+}
+
+#blococerrado{
+    background-image: url(img/cerrado.jpg);
+    background-size: cover;
+}
+#blocomata{
+    background-image: url(img/mata\ atlantica.jpg);
+    background-size: cover;
+}
+#blocoamazonia{
+    background-image: url(img/amazonia.jpg);
+    background-size: cover;
+}
+#blocopampa{
+    background-image: url(img/pampa.jpg);
+    background-size: cover;
+}
+.imgajuda{
+    width: 100%;
+    height: 40%;
+}
+#imgeu{
+    width:100%;
+}
+footer{
+    float: left;
+    background-color: #59ba47;
+    width: 100%;
+    color:  white;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 10%;
+    width: 80%;
+}
+.creditos{
+    text-decoration: none;
+    color: white;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 30px;
+    padding: 0;
+    margin: 10px;
+}
+address{
+    padding: 5px;
+}
+/*responsividade*/
+@media all and (max-width:768px){
+    html{
+        width: 100%;
+    }
+    #menu{
+        visibility: hidden;
+    }
+    section{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .coluna, .dois, .tres, .quatro{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv{
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    #logo{
+        margin: 0;
+        transform: translateX(-50%);
+    }
+    #titulo{
+        font-size: 15vw;
+        padding: 0;
+        padding-top: 45%;
+        padding-bottom: 30px;
+        margin: 0;
+    }
+    #subtitulo{
+        padding: 0;
+        margin: 0;
+        border: 0;
+        font-size: 7vw;
+        padding-bottom: 40px;
+    }
+    .imgajuda{
+        height: auto;
+    }
+    .titulotopico{
+        margin: 10px;
+    }
+    .topico{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #59ba47;
+    }
+    #imgeu{
+        margin-bottom: 20px;
+    }
+    footer{
+        padding: 0;
+        width: 100%;
+    }
+}
