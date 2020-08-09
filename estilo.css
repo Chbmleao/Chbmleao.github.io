@@ -283,6 +283,15 @@ address{
         font-size: 7vw;
         padding-bottom: 40px;
     }
+    .borda{
+        filter: brightness(100%);
+    }
+    .borda:hover{
+        filter: brightness(100%);
+    }
+    .borda:not(:hover){
+        filter: brightness(100%);
+    }
     .imgajuda{
         height: auto;
     }
